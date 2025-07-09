@@ -1,0 +1,10 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'log-generator'
+    static_configs:
+      - targets: ['log-generator:2113'] #host.docker.internal
+  - job_name: 'stream-processor'
+    static_configs:
+      - targets: ['stream-processor:2114']
