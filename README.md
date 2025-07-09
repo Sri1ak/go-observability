@@ -94,8 +94,8 @@ logs_consumed_total - Total logs consumed from Kafka per service
 ![Screenshot](images/Grafana.png)
 
 ### Project Structure
-
--go-observability
+```bash
+ -go-observability
     |-constants
         |-constants.go
     |-images
@@ -118,7 +118,7 @@ logs_consumed_total - Total logs consumed from Kafka per service
     |-input.log
     |-prometheus.yml
     |-README.md
-
+```
 
 ### Cleanup
 
