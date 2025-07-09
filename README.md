@@ -5,7 +5,7 @@
 
 - Reads structured logs from a file
 - Streams logs to Apache Kafka using a Go producer
-- Partitioned by service name for log segregation
+- Partitioned by service name for log segregation in the consumer
 - Integrated with Grafana and prometheus for visualization
 
 ## Architecture
