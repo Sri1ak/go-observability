@@ -125,3 +125,6 @@ logs_consumed_total - Total logs consumed from Kafka per service
 ```bash
 docker-compose down -v
 ```
+### Improvements
+- Add SSL communication between the producer and consumer
+- Add Log level to the input logs and add alert if the error logs are more
